@@ -31,4 +31,4 @@ def create(request):
         return HttpResponseRedirect(reverse('superheroes:index'))
 
     else:
-        return render(request, 'superheroescreate.html')
+        return render(request, 'superheroes/create.html')

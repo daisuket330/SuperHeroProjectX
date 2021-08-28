@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-uwt0xiugy8#02_*pshxlww*(ib=_k&n&=m8dy*139^mun$3#9z'
+SECRET_KEY = 'django-insecure-zl7mmftelnz!5fx=7f8vuo$w+g17j5yhw3tr#4u(*)h_k64k)z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -77,15 +77,14 @@ WSGI_APPLICATION = 'superhero_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django',
-        'NAME': 'superhero_database',
+        'NAME': 'Superhero_database',
         'USER': 'root',
         'PASSWORD': 'Taco1234',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'OPTIONS': {
+        'OPTIONS':{
             'autocommit': True
         }
-        
     }
 }
 
